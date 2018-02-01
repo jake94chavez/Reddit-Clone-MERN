@@ -1,0 +1,23 @@
+{
+  "name": "reddit-clone-mern",
+  "version": "1.0.0",
+  "description": "Building a [Reddit](https://www.reddit.com/) clone using the popular MERN (Mongo – Express – React – Node) stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd front-end && npm start\" \"cd back-end && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake94chavez/Reddit-Clone-MERN.git"
+  },
+  "author": "Jake Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jake94chavez/Reddit-Clone-MERN/issues"
+  },
+  "homepage": "https://github.com/jake94chavez/Reddit-Clone-MERN#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
